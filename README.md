@@ -54,6 +54,12 @@ npm run build:prod
 
 ---
 
+## 📜 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for full release history and release notes.
+
+---
+
 ## 📄 License
 
 GPL-2.0-or-later. See the [LICENSE](LICENSE) file for details.
