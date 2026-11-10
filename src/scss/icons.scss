@@ -1,0 +1,26 @@
+// DriveVault Ligature Icon Font Configuration
+@font-face {
+    font-family: 'drivevault-icon';
+    src: url('../fonts/drivevault-icon.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.drivevault-icon {
+    font-family: 'drivevault-icon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+}

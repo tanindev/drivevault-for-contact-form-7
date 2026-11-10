@@ -1,0 +1,1237 @@
+# Copyright (C) 2026 DriveVault
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: DriveVault for Contact Form 7 – Google Sheets & Drive Sync 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/drivevault-for-contact-form-7\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-08T15:19:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: drivevault-for-contact-form-7\n"
+
+#. Plugin Name of the plugin
+#: drivevault-for-contact-form-7.php
+msgid "DriveVault for Contact Form 7 – Google Sheets & Drive Sync"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: drivevault-for-contact-form-7.php
+msgid "https://github.com/tanindev/drivevault-for-contact-form-7"
+msgstr ""
+
+#. Description of the plugin
+#: drivevault-for-contact-form-7.php
+msgid "Connect Contact Form 7 to Google Sheets & Google Drive. Sync form submissions to spreadsheets in real time and securely store file uploads in Google Drive."
+msgstr ""
+
+#. Author of the plugin
+#: drivevault-for-contact-form-7.php
+#: includes/Admin/AdminMenu.php:54
+#: includes/Admin/AdminMenu.php:55
+msgid "DriveVault"
+msgstr ""
+
+#. Author URI of the plugin
+#: drivevault-for-contact-form-7.php
+msgid "https://profiles.wordpress.org/tanindev/"
+msgstr ""
+
+#: drivevault-for-contact-form-7.php:68
+#: drivevault-for-contact-form-7.php:91
+#: drivevault-for-contact-form-7.php:113
+#: src/components/common/Header.js:24
+msgid "DriveVault for Contact Form 7"
+msgstr ""
+
+#. translators: 1: Minimum PHP version, 2: Current PHP version
+#: drivevault-for-contact-form-7.php:72
+#, php-format
+msgid "requires PHP %1$s or higher. You are currently running PHP %2$s."
+msgstr ""
+
+#. translators: 1: Minimum WordPress version, 2: Current WordPress version
+#: drivevault-for-contact-form-7.php:95
+#, php-format
+msgid "requires WordPress %1$s or higher. You are currently running WordPress %2$s."
+msgstr ""
+
+#: drivevault-for-contact-form-7.php:114
+msgid "requires Contact Form 7 to be installed and active."
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:29
+#: src/app.js:42
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:63
+#: includes/Admin/AdminMenu.php:64
+msgid "DriveVault CF7"
+msgstr ""
+
+#: includes/API/Controllers/AuthController.php:133
+msgid "Disconnected successfully."
+msgstr ""
+
+#: includes/API/Controllers/AuthController.php:153
+msgid "Connection verified successfully."
+msgstr ""
+
+#: includes/API/Controllers/GoogleController.php:134
+msgid "Spreadsheet title is required."
+msgstr ""
+
+#: includes/API/Controllers/GoogleController.php:154
+#: includes/API/Controllers/GoogleController.php:176
+msgid "Sheet ID is required."
+msgstr ""
+
+#: includes/API/Controllers/GoogleController.php:216
+msgid "Folder name is required."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:132
+msgid "Could not delete log item."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:138
+msgid "Log item removed."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:153
+msgid "All submission logs have been cleared."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:169
+msgid "Log item not found."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:173
+msgid "No mapped payload found in this log."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:178
+msgid "No active sheet mapping found for this form."
+msgstr ""
+
+#: includes/API/Controllers/LogsController.php:206
+msgid "Submission successfully re-synced to Google Sheets!"
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:133
+msgid "Form ID is required."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:153
+msgid "Mapping saved successfully."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:169
+msgid "Could not delete mapping."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:175
+msgid "Mapping deleted."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:191
+msgid "Could not toggle mapping status."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:198
+msgid "Feed activated."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:198
+msgid "Feed paused."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:212
+msgid "Sheet ID and Column Mapping are required to send a test row."
+msgstr ""
+
+#: includes/API/Controllers/MappingsController.php:237
+msgid "Test row appended successfully to Google Sheet!"
+msgstr ""
+
+#: includes/API/Controllers/SettingsController.php:105
+msgid "Settings saved successfully."
+msgstr ""
+
+#. translators: %d: Form ID
+#: includes/Database/LogRepository.php:156
+#: src/components/Dashboard/DashboardPage.js:326
+#: src/components/Logs/LogsPage.js:437
+#, php-format,js-format
+msgid "Form #%d"
+msgstr ""
+
+#: includes/Database/MappingRepository.php:96
+msgid "A Contact Form ID is required."
+msgstr ""
+
+#: includes/Database/MappingRepository.php:133
+msgid "Failed to update mapping."
+msgstr ""
+
+#: includes/Database/MappingRepository.php:147
+#: src/components/Feeds/FeedEditor.js:285
+msgid "Failed to save mapping."
+msgstr ""
+
+#: includes/Google/DriveService.php:92
+msgid "Failed to list folders."
+msgstr ""
+
+#: includes/Google/DriveService.php:132
+msgid "Failed to create folder."
+msgstr ""
+
+#. translators: %s: Local file path
+#: includes/Google/DriveService.php:157
+#, php-format
+msgid "Local file not found or unreadable: %s"
+msgstr ""
+
+#: includes/Google/DriveService.php:193
+msgid "Could not read local file contents."
+msgstr ""
+
+#. translators: %d: HTTP response status code
+#: includes/Google/DriveService.php:244
+#, php-format
+msgid "Upload failed with status %d"
+msgstr ""
+
+#: includes/Google/DriveService.php:250
+msgid "Drive upload succeeded but no file ID was returned."
+msgstr ""
+
+#: includes/Google/DriveService.php:318
+msgid "Failed to fetch file metadata."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:83
+msgid "Please configure your Google Cloud Client ID and Client Secret first."
+msgstr ""
+
+#. translators: %s: Error message from Google
+#: includes/Google/OAuthManager.php:120
+#, php-format
+msgid "Google Authorization denied: %s"
+msgstr ""
+
+#: includes/Google/OAuthManager.php:134
+msgid "Google Account connected successfully!"
+msgstr ""
+
+#: includes/Google/OAuthManager.php:155
+msgid "Security validation failed: OAuth state mismatch."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:160
+#: includes/Google/OAuthManager.php:252
+msgid "Missing OAuth credentials."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:182
+msgid "Failed to exchange authorization code."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:188
+msgid "Invalid response received from Google token server."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:224
+msgid "Google account is not connected."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:247
+msgid "No refresh token available. Please reconnect your Google account."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:273
+msgid "Could not refresh Google access token. Please re-authorize."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:278
+msgid "Invalid refresh token response."
+msgstr ""
+
+#: includes/Google/OAuthManager.php:355
+msgid "Failed to retrieve Google profile info."
+msgstr ""
+
+#: includes/Google/SheetsService.php:95
+msgid "Failed to list spreadsheets."
+msgstr ""
+
+#: includes/Google/SheetsService.php:141
+#: src/components/Feeds/FeedEditor.js:171
+msgid "Failed to create spreadsheet."
+msgstr ""
+
+#: includes/Google/SheetsService.php:175
+msgid "Failed to fetch spreadsheet details."
+msgstr ""
+
+#: includes/Google/SheetsService.php:222
+msgid "Failed to fetch row headers."
+msgstr ""
+
+#: includes/Google/SheetsService.php:265
+msgid "Could not write sheet headers."
+msgstr ""
+
+#: includes/Google/SheetsService.php:303
+msgid "Failed to append row to Google Sheet."
+msgstr ""
+
+#: src/app.js:22
+msgid "Dashboard"
+msgstr ""
+
+#: src/app.js:27
+msgid "Form Feeds"
+msgstr ""
+
+#: src/app.js:32
+#: src/components/common/ConnectedAccountsDropdown.js:148
+msgid "Google Account"
+msgstr ""
+
+#: src/app.js:37
+msgid "Submission Logs"
+msgstr ""
+
+#: src/app.js:122
+msgid "Are you sure you want to disconnect your Google Account?"
+msgstr ""
+
+#: src/app.js:139
+msgid "Google Account disconnected successfully."
+msgstr ""
+
+#: src/app.js:148
+#: src/components/Google/GoogleAccountPage.js:177
+msgid "Failed to disconnect."
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:64
+msgid "Google Cloud Accounts Status"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:101
+msgid "Cloud Accounts"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:108
+msgid "Connected"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:109
+msgid "Not Connected"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:144
+msgid "Google Cloud Workspace"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:156
+msgid "OAuth 2.0 Authenticated"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:160
+msgid "Not connected yet"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:173
+msgid "Active (2 Services)"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:177
+msgid "0 Connected"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:210
+msgid "Active & Syncing"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:214
+#: src/components/common/ConnectedAccountsDropdown.js:257
+msgid "Ready to Connect"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:221
+msgid "Real-time Contact Form 7 submissions row streaming"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:253
+msgid "Active & Ready"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:264
+msgid "Secure attachment storage and organized folder routes"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:286
+msgid "Manage Google Credentials"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:290
+#: src/components/Dashboard/DashboardPage.js:85
+#: src/components/Feeds/FeedEditor.js:409
+#: src/components/Feeds/FeedsPage.js:126
+msgid "Connect Google Account"
+msgstr ""
+
+#: src/components/common/ConnectedAccountsDropdown.js:308
+#: src/components/Google/GoogleAccountPage.js:404
+msgid "Disconnect"
+msgstr ""
+
+#: src/components/common/CopyButton.js:10
+msgid "Copy URI"
+msgstr ""
+
+#: src/components/common/CopyButton.js:40
+msgid "Copied to clipboard!"
+msgstr ""
+
+#: src/components/common/CopyButton.js:44
+msgid "Click to copy"
+msgstr ""
+
+#: src/components/common/CopyButton.js:50
+msgid "Copied!"
+msgstr ""
+
+#: src/components/common/Header.js:30
+msgid "Automated Google Sheets sync & Google Drive file uploads for Contact Form 7."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:64
+#: src/components/Feeds/FeedEditor.js:389
+msgid "Google Account Not Connected"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:70
+msgid "Connect your Google account via OAuth 2.0 to begin syncing Contact Form 7 submissions with Google Sheets and Google Drive."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:107
+msgid "Total Submissions Synced"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:124
+msgid "Sync Success Rate"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:141
+msgid "Active Form Feeds"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:156
+#: src/components/Feeds/FeedsPage.js:411
+msgid "Active"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:160
+msgid "Inactive"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:166
+msgid "Google API Connection"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:181
+msgid "Recent Submission Activity"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:187
+msgid "Latest form submissions and real-time Google Sheets dispatch results."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:199
+msgid "View All Logs"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:217
+msgid "Loading activity data..."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:253
+msgid "No form submissions recorded yet."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:265
+msgid "Submissions from mapped Contact Form 7 forms will automatically stream here and write to your Google Sheets."
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:277
+msgid "Configure a Form Feed"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:290
+msgid "Form / Date"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:296
+msgid "Spreadsheet & Sheet"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:302
+msgid "Attachments"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:308
+#: src/components/Logs/LogsPage.js:369
+msgid "Status"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:372
+msgid "files uploaded"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:404
+msgid "Success"
+msgstr ""
+
+#: src/components/Dashboard/DashboardPage.js:408
+#: src/components/Logs/LogsPage.js:422
+msgid "Failed"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:139
+msgid "Please enter a title for the new spreadsheet."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:161
+msgid "Google Sheet created successfully!"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:185
+msgid "Please select a Google Sheet first."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:206
+msgid "Test row written to Google Sheet successfully!"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:215
+msgid "Failed to send test row."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:229
+msgid "Please select a Contact Form."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:239
+msgid "Please select or create a Google Sheet."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:275
+msgid "Feed mapping saved and headers configured!"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:322
+msgid "Back to Feeds"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:337
+msgid "Configure Form Feed & Field Mapping"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:351
+#: src/components/Feeds/FeedEditor.js:987
+msgid "Cancel"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:361
+#: src/components/Google/GoogleAccountPage.js:672
+#: src/components/Settings/SettingsPage.js:527
+msgid "Saving..."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:362
+#: src/components/Feeds/FeedEditor.js:1001
+msgid "Save Feed Mapping"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:395
+msgid "Connect your Google Account to browse spreadsheets and drive folders automatically."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:446
+msgid "Feed Destinations (Google Workspace)"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:452
+msgid "Connect your Contact Form 7 form to a target Google Sheet and optional Drive uploads folder."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:466
+msgid "Contact Form 7 Form"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:480
+msgid "-- Select a Contact Form --"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:492
+msgid "Select the Contact Form 7 form whose submissions will be captured."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:502
+msgid "Target Google Spreadsheet"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:516
+msgid "-- Select Google Spreadsheet --"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:537
+msgid "Or enter title to create new sheet..."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:555
+msgid "Creating..."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:559
+msgid "Create Sheet"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:570
+msgid "Worksheet Tab Name"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:590
+msgid "The specific sheet tab to append new submission rows to."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:600
+msgid "Google Drive File Uploads Folder (Optional)"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:614
+msgid "Auto-create form folder in Google Drive root"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:626
+msgid "File attachments will be uploaded to this Drive folder and direct cloud links added to the sheet."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:667
+msgid "Visual Field-to-Column Mapper"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:673
+msgid "Map each Contact Form 7 tag to a column header in your Google Sheet."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:700
+msgid "Form Input Fields"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:722
+msgid "No custom tags detected for this form."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:741
+msgid "File Attachment"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:764
+#: src/components/Feeds/FeedEditor.js:833
+msgid "Google Sheet Column Header"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:797
+msgid "Built-in Meta Fields"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:861
+msgid "Sync & File Automation Settings"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:885
+msgid "Upload file attachments to Google Drive"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:891
+msgid "Direct Google Drive shareable URLs will be recorded in the spreadsheet column."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:909
+msgid "Delete local file from WordPress server after Drive upload"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:915
+msgid "Frees hosting disk space by safely removing temporary upload attachments after cloud storage."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:933
+msgid "Enable this sync feed"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:939
+msgid "When enabled, new Contact Form 7 submissions will immediately sync to this Google Sheet."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:971
+msgid "Sending Test Row..."
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:975
+msgid "Send Test Row to Sheet"
+msgstr ""
+
+#: src/components/Feeds/FeedEditor.js:997
+msgid "Saving Feed..."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:24
+msgid "Failed to load forms."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:57
+msgid "Failed to toggle status."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:106
+msgid "Google Account Required"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:112
+msgid "Connect your Google Account first to allow Contact Form 7 to create spreadsheets and stream submissions in real time."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:147
+msgid "Contact Form 7 Feeds & Mappings"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:153
+msgid "Connect each Contact Form 7 form to a dedicated Google Sheet and Google Drive folder."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:166
+msgid "Refresh forms list"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:173
+#: src/components/Logs/LogsPage.js:212
+msgid "Refresh"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:191
+msgid "Loading forms..."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:227
+msgid "No Contact Form 7 forms found."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:239
+msgid "Create a form in Contact Form 7 first, then come back here to map it to Google Sheets and Drive."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:250
+msgid "Create Form in Contact Form 7"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:263
+#: src/components/Logs/LogsPage.js:375
+msgid "Form Title / ID"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:269
+msgid "Target Google Sheet"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:275
+msgid "Target Drive Folder"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:281
+msgid "Sync Status"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:287
+msgid "Last Submitted"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:293
+#: src/components/Logs/LogsPage.js:399
+msgid "Actions"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:338
+msgid "Worksheet:"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:354
+msgid "Not configured"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:380
+msgid "Auto / Root Folder"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:405
+msgid "Click to toggle active sync state"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:415
+msgid "Paused"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:422
+msgid "Unmapped"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:462
+msgid "Connect your Google Account first to configure feeds."
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:492
+msgid "Edit Mapping"
+msgstr ""
+
+#: src/components/Feeds/FeedsPage.js:496
+msgid "Configure Feed"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:56
+msgid "Google Cloud credentials saved successfully."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:65
+msgid "Failed to save credentials."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:79
+msgid "Please enter your Google Client ID and Client Secret first."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:108
+msgid "Could not generate Google authorization link."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:127
+msgid "Google API connection verified successfully! Google Sheets and Drive are ready."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:138
+msgid "Connection test failed."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:152
+msgid "Are you sure you want to disconnect your Google account?"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:167
+msgid "Google account disconnected successfully."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:246
+msgid "ACTIVE & SYNCING"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:250
+#: src/components/Google/GoogleAccountPage.js:310
+msgid "READY TO CONNECT"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:306
+msgid "ACTIVE & READY"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:337
+msgid "Google Account Connection"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:344
+msgid "Connected Account:"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:351
+msgid "Active Account"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:359
+msgid "Connect your Google Cloud project to allow automated Contact Form 7 spreadsheet streaming and file uploads storage."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:387
+msgid "Testing..."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:391
+msgid "Test Connection"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:421
+msgid "Connecting..."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:425
+msgid "Authorize & Connect Google Account"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:442
+msgid "Google Cloud API Credentials"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:448
+msgid "Configure OAuth 2.0 Client credentials from your Google Cloud Console project."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:474
+msgid "Hide Setup Guide"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:478
+msgid "View Setup Guide"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:508
+msgid "How to create your Google Cloud OAuth Credentials:"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:570
+msgid "Google Client ID"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:584
+msgid "Your OAuth 2.0 Client ID generated in Google Cloud Console."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:596
+msgid "Google Client Secret"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:612
+msgid "Your OAuth 2.0 Client Secret generated in Google Cloud Console. Stored securely with AES-256 encryption."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:624
+msgid "Authorized Redirect URI"
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:655
+msgid "Must match the Authorized redirect URI in your Google Cloud Console credentials."
+msgstr ""
+
+#: src/components/Google/GoogleAccountPage.js:676
+msgid "Save Credentials"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:41
+msgid "Failed to fetch logs."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:76
+msgid "Retry failed."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:91
+msgid "Log entry deleted."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:98
+msgid "Could not delete log."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:110
+msgid "Are you sure you want to clear all submission logs?"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:125
+msgid "All submission logs cleared."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:135
+msgid "Failed to clear logs."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:151
+msgid "Submission & Sync Activity Logs"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:157
+msgid "Audit trail of all Contact Form 7 submissions, Google Sheets sync, and Drive uploads."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:181
+msgid "All Statuses"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:187
+msgid "Success Only"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:193
+msgid "Errors Only"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:205
+msgid "Refresh logs"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:224
+msgid "Clear all logs"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:231
+msgid "Clear All"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:264
+msgid "Search by form, sheet, or error..."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:281
+msgid "Search"
+msgstr ""
+
+#. translators: %1$d: total number of log entries
+#: src/components/Logs/LogsPage.js:292
+#, js-format
+msgid "Showing %1$d total entries"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:309
+msgid "Loading logs..."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:345
+msgid "No matching submission logs found."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:357
+msgid "Form submission events and synchronization status will appear here."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:381
+msgid "Submission Info"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:387
+msgid "Duration"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:393
+msgid "Date & Time"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:418
+msgid "Synced"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:537
+msgid "View submission data"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:547
+msgid "View Payload"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:568
+msgid "Retry Google sync"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:580
+msgid "Retrying..."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:584
+msgid "Retry"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:600
+msgid "Delete log"
+msgstr ""
+
+#. translators: %d: log entry ID
+#: src/components/Logs/LogsPage.js:629
+#, js-format
+msgid "Submission Payload #%d"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:675
+msgid "Form:"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:686
+msgid "Target Sheet:"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:702
+msgid "Duration:"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:856
+msgid "CF7 temporary file checksum. Files uploaded prior to Drive integration cannot be re-downloaded."
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:889
+msgid "View Raw JSON Payload"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:934
+msgid "Uploaded Google Drive Files:"
+msgstr ""
+
+#: src/components/Logs/LogsPage.js:956
+msgid "Uploaded File"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:48
+msgid "Settings updated successfully."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:57
+msgid "Failed to save settings."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:89
+msgid "Sync & Automation Preferences"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:95
+msgid "Customize form trigger hooks, local storage purging, and privacy options."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:107
+msgid "Google Sheets Sync Trigger Action"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:153
+msgid "On Email Sent (Recommended)"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:202
+msgid "On Submission Validation"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:220
+msgid "Select when submissions stream into Google Sheets."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:255
+msgid "Purge Local Uploads after Google Drive Upload"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:265
+msgid "Automatically removes files from wp-content/uploads/wpcf7_uploads/ once securely uploaded to Google Drive to keep server hosting storage lean."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:298
+msgid "Anonymize Submitter IP Addresses (GDPR Compliance)"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:308
+msgid "Masks the last octet of submitter IP addresses before recording them into activity logs."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:330
+msgid "Error Alerts & Notifications"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:336
+msgid "Receive instant alerts if Google Sheets or Drive API sync encounters an error."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:369
+msgid "Send Email Notification on Sync Failures"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:383
+msgid "Notification Email Address"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:404
+msgid "Comma-separated recipient email addresses for alert dispatches."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:427
+msgid "Data Management & Retention"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:433
+msgid "Configure log expiration and uninstall cleanup behavior."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:444
+msgid "Submission Logs Retention Window (Days)"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:464
+msgid "Logs older than this threshold are purged daily automatically by WordPress cron."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:499
+msgid "Complete Data Wipe on Plugin Deletion"
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:509
+msgid "If enabled, all database tables, feed mappings, and OAuth tokens are permanently deleted when you delete the plugin from WordPress."
+msgstr ""
+
+#: src/components/Settings/SettingsPage.js:531
+msgid "Save Settings"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:32
+msgid "Loading system diagnostics..."
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:49
+msgid "System Environment & Diagnostics"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:55
+msgid "Server configuration and API compatibility check."
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:68
+msgid "Plugin Version"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:81
+msgid "PHP Version"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:94
+msgid "Upgrade Required"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:104
+msgid "WordPress Version"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:113
+msgid "Contact Form 7"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:127
+msgid "Not Detected"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:137
+msgid "cURL Extension"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:156
+msgid "OpenSSL Encryption"
+msgstr ""
+
+#: src/components/Settings/SystemStatusCard.js:175
+msgid "Max Upload Size"
+msgstr ""

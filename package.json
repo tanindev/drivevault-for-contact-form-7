@@ -1,0 +1,50 @@
+{
+	"name": "drivevault-for-contact-form-7",
+	"version": "1.0.0",
+	"description": "Connect Contact Form 7 to Google Sheets & Google Drive. Sync form submissions to spreadsheets in real time and securely store file uploads in Google Drive.",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"build:prod": "node scripts/build-zip.js",
+		"start": "wp-scripts start",
+		"i18n:make-pot": "node scripts/make-pot.js",
+		"make-pot": "npm run i18n:make-pot",
+		"i18n": "npm run i18n:make-pot",
+		"lint:js": "wp-scripts lint-js",
+		"format": "wp-scripts format"
+	},
+	"files": [
+		"assets",
+		"includes",
+		"languages",
+		"templates",
+		"drivevault-for-contact-form-7.php",
+		"readme.txt",
+		"uninstall.php"
+	],
+	"keywords": [
+		"wordpress",
+		"plugin",
+		"contact-form-7",
+		"google-sheets",
+		"google-drive",
+		"cf7",
+		"spreadsheets",
+		"react"
+	],
+	"author": "Tanin Ahmed",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0",
+		"sass": "^1.83.0"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^7.0.0",
+		"@wordpress/components": "^28.0.0",
+		"@wordpress/data": "^10.0.0",
+		"@wordpress/element": "^6.0.0",
+		"@wordpress/i18n": "^5.0.0",
+		"@wordpress/icons": "^10.0.0",
+		"@wordpress/notices": "^4.0.0",
+		"@wordpress/url": "^4.0.0"
+	}
+}
